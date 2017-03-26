@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2C87631E8790760012D48A /* UIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C87621E8790760012D48A /* UIBuilder.swift */; };
 		BD658E191E877047006C98BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD658E181E877047006C98BD /* AppDelegate.swift */; };
-		BD658E1B1E877047006C98BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD658E1A1E877047006C98BD /* ViewController.swift */; };
-		BD658E1E1E877047006C98BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD658E1C1E877047006C98BD /* Main.storyboard */; };
+		BD658E1B1E877047006C98BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD658E1A1E877047006C98BD /* MainViewController.swift */; };
 		BD658E201E877047006C98BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD658E1F1E877047006C98BD /* Assets.xcassets */; };
 		BD658E231E877047006C98BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD658E211E877047006C98BD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2C87621E8790760012D48A /* UIBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBuilder.swift; sourceTree = "<group>"; };
 		BD658E151E877047006C98BD /* CharacterCustomizationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharacterCustomizationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD658E181E877047006C98BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD658E1A1E877047006C98BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD658E1D1E877047006C98BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD658E1A1E877047006C98BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BD658E1F1E877047006C98BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD658E221E877047006C98BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD658E241E877047006C98BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				BD658E181E877047006C98BD /* AppDelegate.swift */,
-				BD658E1A1E877047006C98BD /* ViewController.swift */,
-				BD658E1C1E877047006C98BD /* Main.storyboard */,
+				BD658E1A1E877047006C98BD /* MainViewController.swift */,
 				BD658E1F1E877047006C98BD /* Assets.xcassets */,
 				BD658E211E877047006C98BD /* LaunchScreen.storyboard */,
 				BD658E241E877047006C98BD /* Info.plist */,
+				BD2C87621E8790760012D48A /* UIBuilder.swift */,
 			);
 			path = CharacterCustomizationTool;
 			sourceTree = "<group>";
@@ -126,7 +126,6 @@
 			files = (
 				BD658E231E877047006C98BD /* LaunchScreen.storyboard in Resources */,
 				BD658E201E877047006C98BD /* Assets.xcassets in Resources */,
-				BD658E1E1E877047006C98BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +136,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD658E1B1E877047006C98BD /* ViewController.swift in Sources */,
+				BD658E1B1E877047006C98BD /* MainViewController.swift in Sources */,
 				BD658E191E877047006C98BD /* AppDelegate.swift in Sources */,
+				BD2C87631E8790760012D48A /* UIBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BD658E1C1E877047006C98BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD658E1D1E877047006C98BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD658E211E877047006C98BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +294,7 @@
 				BD658E291E877047006C98BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
